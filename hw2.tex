@@ -1,0 +1,61 @@
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+
+\usepackage{amsmath,amsfonts}
+\usepackage{color}
+\usepackage{hyperref}
+
+\usepackage{tikz}
+
+
+
+\newcommand{\note}[1]{ \sffamily{\color{blue}\emph{Note:} #1 }  \rmfamily}
+
+
+\newcommand{\E}[1]{ \mathop{{\mathbb{E} \left[ #1 \right] }}}
+\newcommand{\var}[1]{ \mathop{{\mbox{var} \left[ #1 \right] }}}
+\renewcommand{\P}[1]{ \mathop{{\mathbb{P} \left[ #1 \right] }}}
+
+\newcommand{\hypoth}{\cal H}
+\newcommand{\half}{\frac{1}{2}}
+\newcommand{\sign}{\mbox{sign}}
+\newcommand{\set}[1]{\{ #1 \}}
+
+\newcommand{\bx}{{\mathbf{x}}}
+\newcommand{\bX}{{\mathbf{X}}}
+\newcommand{\bw}{{\mathbf{w}}}
+\newcommand{\bu}{{\mathbf{u}}}
+\newcommand{\bU}{{\mathbf{U}}}
+\newcommand{\bR}{{\mathbf{R}}}
+\newcommand{\bt}{{\mathbf{t}}}
+\newcommand{\bph}{{\mathbf{\Phi}}}
+
+\newcommand{\trans}{{\text{\sffamily{T}}}}
+
+\setcounter{page}{0}
+\pagestyle{empty}
+
+\begin{document}
+
+
+\centerline{CMPS 203 Homework 2}
+\smallskip
+
+
+\medskip
+
+\begin{enumerate}
+
+\item
+Abstract syntax for ARITH:
+
+e ::= n
+	
+	{|} e1 + e2
+	
+	{|} e1 * e2
+
+\end{enumerate}
+
+
+\end{document}
